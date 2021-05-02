@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB336B1B263F1B3E007707DD /* anchoralarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB336B1A263F1B3E007707DD /* anchoralarmApp.swift */; };
+		BB336B1D263F1B3E007707DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB336B1C263F1B3E007707DD /* ContentView.swift */; };
+		BB336B1F263F1B42007707DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB336B1E263F1B42007707DD /* Assets.xcassets */; };
+		BB336B22263F1B42007707DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB336B21263F1B42007707DD /* Preview Assets.xcassets */; };
+		BB336B2D263F1B42007707DD /* anchoralarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB336B2C263F1B42007707DD /* anchoralarmTests.swift */; };
+		BB336B38263F1B42007707DD /* anchoralarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB336B37263F1B42007707DD /* anchoralarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB336B29263F1B42007707DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB336B0F263F1B3E007707DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB336B16263F1B3E007707DD;
+			remoteInfo = anchoralarm;
+		};
+		BB336B34263F1B42007707DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB336B0F263F1B3E007707DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB336B16263F1B3E007707DD;
+			remoteInfo = anchoralarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB336B17263F1B3E007707DD /* anchoralarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anchoralarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB336B1A263F1B3E007707DD /* anchoralarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anchoralarmApp.swift; sourceTree = "<group>"; };
+		BB336B1C263F1B3E007707DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB336B1E263F1B42007707DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB336B21263F1B42007707DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB336B23263F1B42007707DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB336B28263F1B42007707DD /* anchoralarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anchoralarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB336B2C263F1B42007707DD /* anchoralarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anchoralarmTests.swift; sourceTree = "<group>"; };
+		BB336B2E263F1B42007707DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB336B33263F1B42007707DD /* anchoralarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anchoralarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB336B37263F1B42007707DD /* anchoralarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anchoralarmUITests.swift; sourceTree = "<group>"; };
+		BB336B39263F1B42007707DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB336B14263F1B3E007707DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB336B25263F1B42007707DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB336B30263F1B42007707DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB336B0E263F1B3E007707DD = {
+			isa = PBXGroup;
+			children = (
+				BB336B19263F1B3E007707DD /* anchoralarm */,
+				BB336B2B263F1B42007707DD /* anchoralarmTests */,
+				BB336B36263F1B42007707DD /* anchoralarmUITests */,
+				BB336B18263F1B3E007707DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB336B18263F1B3E007707DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB336B17263F1B3E007707DD /* anchoralarm.app */,
+				BB336B28263F1B42007707DD /* anchoralarmTests.xctest */,
+				BB336B33263F1B42007707DD /* anchoralarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB336B19263F1B3E007707DD /* anchoralarm */ = {
+			isa = PBXGroup;
+			children = (
+				BB336B1A263F1B3E007707DD /* anchoralarmApp.swift */,
+				BB336B1C263F1B3E007707DD /* ContentView.swift */,
+				BB336B1E263F1B42007707DD /* Assets.xcassets */,
+				BB336B23263F1B42007707DD /* Info.plist */,
+				BB336B20263F1B42007707DD /* Preview Content */,
+			);
+			path = anchoralarm;
+			sourceTree = "<group>";
+		};
+		BB336B20263F1B42007707DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB336B21263F1B42007707DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB336B2B263F1B42007707DD /* anchoralarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB336B2C263F1B42007707DD /* anchoralarmTests.swift */,
+				BB336B2E263F1B42007707DD /* Info.plist */,
+			);
+			path = anchoralarmTests;
+			sourceTree = "<group>";
+		};
+		BB336B36263F1B42007707DD /* anchoralarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB336B37263F1B42007707DD /* anchoralarmUITests.swift */,
+				BB336B39263F1B42007707DD /* Info.plist */,
+			);
+			path = anchoralarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB336B16263F1B3E007707DD /* anchoralarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB336B3C263F1B42007707DD /* Build configuration list for PBXNativeTarget "anchoralarm" */;
+			buildPhases = (
+				BB336B13263F1B3E007707DD /* Sources */,
+				BB336B14263F1B3E007707DD /* Frameworks */,
+				BB336B15263F1B3E007707DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anchoralarm;
+			productName = anchoralarm;
+			productReference = BB336B17263F1B3E007707DD /* anchoralarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB336B27263F1B42007707DD /* anchoralarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB336B3F263F1B42007707DD /* Build configuration list for PBXNativeTarget "anchoralarmTests" */;
+			buildPhases = (
+				BB336B24263F1B42007707DD /* Sources */,
+				BB336B25263F1B42007707DD /* Frameworks */,
+				BB336B26263F1B42007707DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB336B2A263F1B42007707DD /* PBXTargetDependency */,
+			);
+			name = anchoralarmTests;
+			productName = anchoralarmTests;
+			productReference = BB336B28263F1B42007707DD /* anchoralarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB336B32263F1B42007707DD /* anchoralarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB336B42263F1B42007707DD /* Build configuration list for PBXNativeTarget "anchoralarmUITests" */;
+			buildPhases = (
+				BB336B2F263F1B42007707DD /* Sources */,
+				BB336B30263F1B42007707DD /* Frameworks */,
+				BB336B31263F1B42007707DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB336B35263F1B42007707DD /* PBXTargetDependency */,
+			);
+			name = anchoralarmUITests;
+			productName = anchoralarmUITests;
+			productReference = BB336B33263F1B42007707DD /* anchoralarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB336B0F263F1B3E007707DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BB336B16263F1B3E007707DD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BB336B27263F1B42007707DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BB336B16263F1B3E007707DD;
+					};
+					BB336B32263F1B42007707DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BB336B16263F1B3E007707DD;
+					};
+				};
+			};
+			buildConfigurationList = BB336B12263F1B3E007707DD /* Build configuration list for PBXProject "anchoralarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB336B0E263F1B3E007707DD;
+			productRefGroup = BB336B18263F1B3E007707DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB336B16263F1B3E007707DD /* anchoralarm */,
+				BB336B27263F1B42007707DD /* anchoralarmTests */,
+				BB336B32263F1B42007707DD /* anchoralarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB336B15263F1B3E007707DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB336B22263F1B42007707DD /* Preview Assets.xcassets in Resources */,
+				BB336B1F263F1B42007707DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB336B26263F1B42007707DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB336B31263F1B42007707DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB336B13263F1B3E007707DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB336B1D263F1B3E007707DD /* ContentView.swift in Sources */,
+				BB336B1B263F1B3E007707DD /* anchoralarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB336B24263F1B42007707DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB336B2D263F1B42007707DD /* anchoralarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB336B2F263F1B42007707DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB336B38263F1B42007707DD /* anchoralarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB336B2A263F1B42007707DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB336B16263F1B3E007707DD /* anchoralarm */;
+			targetProxy = BB336B29263F1B42007707DD /* PBXContainerItemProxy */;
+		};
+		BB336B35263F1B42007707DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB336B16263F1B3E007707DD /* anchoralarm */;
+			targetProxy = BB336B34263F1B42007707DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB336B3A263F1B42007707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB336B3B263F1B42007707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB336B3D263F1B42007707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"anchoralarm/Preview Content\"";
+				DEVELOPMENT_TEAM = JK396GADAF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = anchoralarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobete.anchoralarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB336B3E263F1B42007707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"anchoralarm/Preview Content\"";
+				DEVELOPMENT_TEAM = JK396GADAF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = anchoralarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobete.anchoralarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB336B40263F1B42007707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK396GADAF;
+				INFOPLIST_FILE = anchoralarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobete.anchoralarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anchoralarm.app/anchoralarm";
+			};
+			name = Debug;
+		};
+		BB336B41263F1B42007707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK396GADAF;
+				INFOPLIST_FILE = anchoralarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobete.anchoralarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anchoralarm.app/anchoralarm";
+			};
+			name = Release;
+		};
+		BB336B43263F1B42007707DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK396GADAF;
+				INFOPLIST_FILE = anchoralarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobete.anchoralarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = anchoralarm;
+			};
+			name = Debug;
+		};
+		BB336B44263F1B42007707DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK396GADAF;
+				INFOPLIST_FILE = anchoralarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobete.anchoralarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = anchoralarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB336B12263F1B3E007707DD /* Build configuration list for PBXProject "anchoralarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB336B3A263F1B42007707DD /* Debug */,
+				BB336B3B263F1B42007707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB336B3C263F1B42007707DD /* Build configuration list for PBXNativeTarget "anchoralarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB336B3D263F1B42007707DD /* Debug */,
+				BB336B3E263F1B42007707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB336B3F263F1B42007707DD /* Build configuration list for PBXNativeTarget "anchoralarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB336B40263F1B42007707DD /* Debug */,
+				BB336B41263F1B42007707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB336B42263F1B42007707DD /* Build configuration list for PBXNativeTarget "anchoralarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB336B43263F1B42007707DD /* Debug */,
+				BB336B44263F1B42007707DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB336B0F263F1B3E007707DD /* Project object */;
+}
